@@ -1,17 +1,20 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import ListGroup from "./components/ListGroup";
-// import Message from "./components/Message";
-
-
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
-    <div>
-      {/* <Message/> */}
-      <ListGroup/>
-    </div>
-  )
-  
+    <Router>
+      <Navbar />
+      <ListGroup />
+      
+      <Routes>
+
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
