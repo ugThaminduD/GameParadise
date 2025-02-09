@@ -10,7 +10,7 @@ function Navbar() {
             alt="Logo"
             width="30"
             height="24"
-            style={{marginRight: 10}}
+            style={{ marginRight: 10 }}
             className="d-inline-block align-text-top"
           />
           Bootstrap
@@ -41,7 +41,7 @@ function Navbar() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
+                // href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -68,11 +68,6 @@ function Navbar() {
                   </a>
                 </li>
               </ul>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
-                Disabled
-              </a>
             </li>
           </ul>
           <form className="d-flex" role="search">
